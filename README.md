@@ -4,7 +4,7 @@
 This project demonstrates how to build a data pipeline using AWS Glue, Athena, and Power BI. The pipeline extracts, transforms, and loads data from S3 and visualizes insights using Power BI.
 
 ## Architecture Diagram
-![Architecture Diagram](architecture/architecture_diagram.png)
+![Architecture Diagram](https://github.com/jubairt/aws-spotify-data-pipeline/blob/main/DataflowModel.png)
 
 ### Data Flow
 1. **S3 (Staging & Datawarehouse)** - Raw CSV files are stored in S3 (staging) and transformed data is stored in another S3 folder (datawarehouse).
